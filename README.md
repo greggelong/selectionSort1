@@ -4,7 +4,7 @@
 
 made some javascript code with p5 visualizations
 
-of this sudo code from Brilliant's algorithms chapter
+of this pseudo code from Brilliant's algorithms chapter
 
 
 
