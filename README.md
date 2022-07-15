@@ -1,10 +1,13 @@
 ## A place to hold some code and live pages
-## for a selection sort algorithm based on Brilliant.com sudo code
+## for sort algorithms based on Brilliant.com pseudo code
 
 
 made some javascript code with p5 visualizations
 
 of this pseudo code from Brilliant's algorithms chapter
+
+---------
+## selection sort
 
 https://greggelong.github.io/sort/selectionSortAnimate
 
@@ -16,6 +19,18 @@ https://greggelong.github.io/sort/selectionSortFunction
 
 
 ![selectionSortBrilliant.png](selectionSortBrilliant.png)
+
+
+
+----
+## insertion sort
+
+https://greggelong.github.io/sort/insertSortFunction
+
+
+![insertSortBrilliant.png](insertSortBrilliant.png)
+
+
 
 
 also a good discussion of big O of this algorithm found here
