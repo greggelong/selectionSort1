@@ -38,6 +38,15 @@ https://greggelong.github.io/sort/insertSortFunction
 
 
 
+-----
+
+## bubble sort
+
+https://greggelong.github.io/sort/bubbleSortAnimate
+
+
+----
+
 also a good discussion of big O of this algorithm found here
 
 https://www.doabledanny.com/selection-sort-javascript
