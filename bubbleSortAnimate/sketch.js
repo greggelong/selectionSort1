@@ -45,15 +45,22 @@ function draw() {
 }
 
 
-function bubbleSort(c) {
-  for (let i = 0; i < a.length - c - 1; i++) {
-    if (a[i] > a[i + 1]) {
-      let temp = a[i];
-      a[i] = a[i + 1];
-      a[i + 1] = temp;
+
+
+
+function bubbleSort(){
+    for (let c =0; c<a.length;c++){
+      for(let i = 0; i<a.length-c-1; i++){
+        if(a[i]>a[i+1]){
+          let temp = a[i];
+          a[i] = a[i+1];
+          a[i+1] = temp;
+        }
+      }
     }
+    
+    
   }
-}
 
 function plotArr(theA) {
   background(0);
