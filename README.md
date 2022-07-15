@@ -25,6 +25,11 @@ https://greggelong.github.io/sort/selectionSortFunction
 ----
 ## insertion sort
 
+
+https://greggelong.github.io/sort/insertSortAnimate
+
+https://greggelong.github.io/sort/insertSortClick
+
 https://greggelong.github.io/sort/insertSortFunction
 
 
