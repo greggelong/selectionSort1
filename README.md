@@ -6,13 +6,13 @@ made some javascript code with p5 visualizations
 
 of this pseudo code from Brilliant's algorithms chapter
 
-https://greggelong.github.io/selectionSort1/selectionSortAnimate
+https://greggelong.github.io/sort/selectionSortAnimate
 
 
-https://greggelong.github.io/selectionSort1/selectionSortClick
+https://greggelong.github.io/sort/selectionSortClick
 
 
-https://greggelong.github.io/selectionSort1/selectionSortFunction
+https://greggelong.github.io/sort/selectionSortFunction
 
 
 ![selectionSortBrilliant.png](selectionSortBrilliant.png)
@@ -21,6 +21,7 @@ https://greggelong.github.io/selectionSort1/selectionSortFunction
 also a good discussion of big O of this algorithm found here
 
 https://www.doabledanny.com/selection-sort-javascript
+
 
 
 
