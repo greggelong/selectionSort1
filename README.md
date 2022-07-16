@@ -60,7 +60,7 @@ however the same conditional checking kept giving me an out of range error when 
   }
   plota();
   // increment
-  if (i < a.length-j-2) { // while outer loop in range
+  if (i < a.length-j-2) { // this really needs to be -2 as the condition above checks i+1
     i++; // increment inner loop
     println(i, a.length);
     }else {
@@ -94,7 +94,7 @@ it really was out of range
   plotArr(a);
 
   // increment i inner 
-  if (i < a.length - j - 1) {   
+  if (i < a.length - j - 1) {   // 
     i++;
     print(i)
   } else {
