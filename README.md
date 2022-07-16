@@ -48,7 +48,7 @@ bubble sort mystery solved.
 
 I made a version of bubble sort in processing on my android phone while riding the subway today.
 
-however the same conditional checking kept giving me an out of range error when checking index +1 so I subtraced -j-2 instead of -j-1 
+however the same conditional checking kept giving me an out of range error when checking index +1 so I subtracted -j-2 instead of -j-1 
 
 ```processing 
  if (a[i]>a[i+1]) {
@@ -75,7 +75,7 @@ however the same conditional checking kept giving me an out of range error when 
       }
 ```
 
-but then checked the javascript code and wonded why I was not getting an out of range error that killed the programe
+but then checked the javascript code and wondered why I was not getting an out of range error that killed the program
 
 it really was out of range
 
@@ -119,7 +119,7 @@ but then I found this discussion
 
 https://stackoverflow.com/questions/62574010/javascript-why-this-condition-si1-dont-give-an-error-out-of-range
 
-it doesent give out of range only undefined!!!
+it doesn't give out of range only undefined!!!
 
 ----
 
