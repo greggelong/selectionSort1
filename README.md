@@ -121,6 +121,12 @@ https://stackoverflow.com/questions/62574010/javascript-why-this-condition-si1-d
 
 it doesn't give out of range only undefined!!!
 
+Using an invalid index number returns undefined.
+
+so my logic was all wrong but I did not see it
+
+I think javascript is helpful to the point of being dangerous
+
 ----
 
 also a good discussion of big O of this algorithm found here
