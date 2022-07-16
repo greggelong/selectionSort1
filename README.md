@@ -82,7 +82,7 @@ it really was out of range
 ```javascript
 
 
-  if (a[i] > a[i + 1]) {
+  if (a[i] > a[i + 1]) {  // will not give an out of range!!!!
     
     let temp = a[i];
     a[i] = a[i + 1];
@@ -94,7 +94,7 @@ it really was out of range
   plotArr(a);
 
   // increment i inner 
-  if (i < a.length - j - 2) {
+  if (i < a.length - j - 1) {   
     i++;
     print(i)
   } else {
@@ -118,6 +118,8 @@ it really was out of range
 but then I found this discussion
 
 https://stackoverflow.com/questions/62574010/javascript-why-this-condition-si1-dont-give-an-error-out-of-range
+
+it doesent give out of range only undefined!!!
 
 ----
 
