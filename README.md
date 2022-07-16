@@ -44,6 +44,80 @@ https://greggelong.github.io/sort/insertSortFunction
 
 https://greggelong.github.io/sort/bubbleSortAnimate
 
+bubble sort mystery solved.
+
+I made a version of bubble sort in processing on my android phone while riding the subway today.
+
+however the same conditional checking kept giving me an out of range error when checking index +1 so I subtraced -j-2 instead of -j-1 
+
+```processing 
+ if (a[i]>a[i+1]) {
+    // swap
+    int temp =a[i];
+    a[i]=a[i+1];
+    a[i+1]= temp;
+    //println(i+1, j);
+  }
+  plota();
+  // increment
+  if (i < a.length-j-2) { // while outer loop in range
+    i++; // increment inner loop
+    println(i, a.length);
+    }else {
+      i=0;
+      if(j < a.length){
+        j++;
+      }else{
+    j=0;
+    i=0;
+    mkranda();
+    plota();
+      }
+```
+
+but then checked the javascript code and wonded why I was not getting an out of range error that killed the programe
+
+it really was out of range
+
+```javascript
+
+
+  if (a[i] > a[i + 1]) {
+    
+    let temp = a[i];
+    a[i] = a[i + 1];
+    a[i + 1] = temp;
+   // print(i+1);
+  }
+
+  // polot switch
+  plotArr(a);
+
+  // increment i inner 
+  if (i < a.length - j - 2) {
+    i++;
+    print(i)
+  } else {
+    // else increment outer and set i to zero
+    i = 0;
+    if (j < a.length) {
+      j++;
+      //print(currentIndex, a.length, a)
+    } else {
+      i = 0;
+      j = 0;
+      a = randArray(60, 1, 60);
+      //print(a)
+      plotArr(a);
+    }
+  }
+
+
+```
+
+but then I found this discussion
+
+https://stackoverflow.com/questions/62574010/javascript-why-this-condition-si1-dont-give-an-error-out-of-range
 
 ----
 
