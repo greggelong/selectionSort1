@@ -129,6 +129,15 @@ I think javascript is helpful to the point of being dangerous
 
 ----
 
+
+## sound
+
+I added two more processing sketches that animate bubble sort and selection sort with sound.
+
+The selection sort animation is done a bit differently to the way I did it in p5.  
+
+
+
 also a good discussion of big O of this algorithm found here
 
 https://www.doabledanny.com/selection-sort-javascript
